@@ -1,0 +1,100 @@
+<html>
+<head>
+    <title>Tugas</title>
+    <style> 
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h2 {
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .paket-container {
+            display: flex;
+            gap: 25px;
+        }
+        .paket {
+            width: 260px;
+            color: white;
+            padding-bottom: 15px;
+            box-shadow: 0 0 3px rgba(0,0,0,0.3);
+        }
+        .title-box {
+            padding: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .konten {
+            background: #ffffff;
+            color: #000;
+            padding: 12px;
+            font-size: 14px;
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            min-height: 120px;
+        }
+        .btn-pesan {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            margin: 15px auto 0;
+            width: 85%;
+        }
+
+        .free { background: #006dcc; }
+        .btn-free { background: #006dcc; color: white; }
+
+        .premium { background: #ff7f00; }
+        .btn-premium { background: #ff7f00; color: white; }
+
+        .pro { background: #149414; }
+        .btn-pro { background: #149414; color: white; }
+    </style>
+</head>
+
+<body>
+
+<h2><font color="blue">Paket Hosting Pilihan</font></h2><hr>
+<div class="paket-container">
+
+    <div class="paket free">
+        <div class="title-box">Paket Free <br><font size="2">Gratis</font></div>
+        <div class="konten">
+            Batas Waktu 3 Bulan<br><br>
+            <hr>
+            Kapasitas 200 MB<br> <br>Tidak ada backup data
+        </div>
+        <div class="btn-pesan btn-free">Pesan Sekarang</div>
+    </div>
+
+    <div class="paket premium">
+        <div class="title-box">Paket Premium<br>Rp 250.000</div>
+        <div class="konten">
+            Batas Waktu 1 Tahun<br><br>
+            <hr>
+            Kapasitas 1GB<br><br>
+            Dilengkapi Backup Data
+        </div>
+        <div class="btn-pesan btn-premium">Pesan Sekarang</div>
+    </div>
+
+    <div class="paket pro">
+        <div class="title-box">Paket Profesional<br>Rp 500.000</div>
+        <div class="konten">
+            Batas Waktu 2 Tahun<br><br>
+            <hr>
+            Kapasitas 1GB<br><br>
+            Dilengkapi Backup Data
+        </div>
+        <div class="btn-pesan btn-pro">Pesan Sekarang</div>
+    </div>
+
+</div>
+
+</body>
+</html>
